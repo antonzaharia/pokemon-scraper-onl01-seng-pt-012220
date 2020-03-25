@@ -21,7 +21,9 @@ class Pokemon
     row = db_conn.execute("SELECT * FROM pokemon WHERE id = ?", id).flatten
     name = row[1]
     type = row[2]
+    hp = [3]
     
+    new_pokemon = 
     
   end
   
