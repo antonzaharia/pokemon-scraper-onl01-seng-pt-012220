@@ -18,7 +18,7 @@ class Pokemon
   end
   
   def self.find(id, db_conn)
-    
+    pokemon = db_conn.execute("")
   end
   
 end
