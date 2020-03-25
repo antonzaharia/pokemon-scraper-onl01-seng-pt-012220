@@ -23,7 +23,7 @@ class Pokemon
     type = row[2]
     hp = [3]
     
-    new_pokemon = 
+    new_pokemon = Pokemon.new()
     
   end
   
